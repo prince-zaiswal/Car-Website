@@ -1,0 +1,300 @@
+/** === Basic Font & Icons === */
+@import url("./fonts.css");
+@import url("vendor/bootstrap-icons/font/bootstrap-icons.css");
+@import url("vendor/fontawesome-free-6.2.1-web/css/fontawesome.min.css");
+@import url("vendor/fontawesome-free-6.2.1-web/css/regular.min.css");
+
+/* ===  Global === */
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  font-family: "kia";
+  margin: 0;
+  scroll-behavior: smooth !important;
+  padding: 0;
+}
+body{
+  background-color: #05141f;
+  overflow-x: hidden !important;
+}
+section{
+  padding: 30px 0px;
+}
+ 
+video{
+   display: block;
+   object-fit: cover;
+   border-radius: 8px;
+   }
+/* =======  TypoGraphy ====== */
+h1{
+  font-family: "Kia";
+  font-size: 5rem;
+  line-height: 0.988;
+}
+h2{
+  font-family: "Kia";
+  line-height: 0.988;
+}
+h3{
+  font-family: "Kia";
+  line-height: 0.988;
+}
+h4{
+  line-height: 1.333;
+  font-family: "Kia";
+
+}
+h5{
+  font-family: "Kia";
+  line-height: 0.988;
+}
+h6{
+  font-family: "Kia";
+  line-height: 0.988;
+}
+p{
+  font-family: 'Kia';
+  font-size: '16px';
+}
+
+/* === Header ===*/
+header{
+  background-color:#05141f;
+  position:relative;}
+.navmenu{
+  padding-bottom: 0px;
+  background-color:#05141f;}
+.bi-list{
+  font-size: 30px;
+  color: white;
+}
+.navbar-toggler{
+  padding: 3px !important;
+  outline: 2px;
+  box-shadow: none;
+}
+.navbar-brand img {
+  width: 80px;
+}
+.nav-item > a.active{
+  border-bottom: 3px solid #ea0029;
+  font-weight: 600;}
+
+.navbar-nav {
+  align-items: center;
+  width:100%;
+}
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0.8em 0.9em;
+  margin-left:5px ;
+}
+.nav-item>a:hover{
+  border-bottom: 3px solid #ea0029;
+  transition : 0.1s ease-in;
+  }
+
+/* ==== Bannner ==== */
+.banner{
+  height: 100vh;
+	background-size: cover;
+  display: flex;
+  align-items: center;
+	background-position: center;
+  background-attachment: fixed;
+}
+.banner-title{
+  font-size: 4rem;
+  line-height: 0.77;
+}
+
+/* ==== Greeting text ===== */
+.greet{
+  padding: 80px 0px;
+}
+.greet-text{
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 0;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.greet-heading{
+  background:linear-gradient(60deg, rgba(234,0,41,1) 40%, rgba(243,187,1,1) 50%, rgb(78, 105, 15) 68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 160px;
+}
+
+/* ===== info-box ==== */
+.info-text{
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+}
+.gradient-text{
+  background:linear-gradient(60deg, rgba(234,0,41,1) 40%, rgba(243,187,1,1) 50%, rgb(78, 105, 15) 68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+/* ==== Mark ==== */
+.marktext{
+  background:linear-gradient(60deg, rgba(234,0,41,1) 40%, rgba(243,187,1,1) 50%, rgb(78, 105, 15) 68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-family: 'kia';
+  margin: 0px !important;
+  padding: 0px !important;
+  font-size: 10rem;
+  line-height: 0.2em;
+}
+/* ==== inspires ==== */
+.inspire{
+  color: white;
+  font-size: 2.4em;
+  font-weight: 500;
+}
+
+/* ===== Tab ====  */
+.tab-title{
+  color: white;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-top: 1em;
+}
+#pills-tab>li>.active{
+  background-color: white;
+  color: black;
+}
+#pills-tab>li>button:hover{
+  background-color: white;
+  color: black;
+  bottom: none !important;
+}
+#pills-tab>li>button{
+  text-align: center;
+  background-color: #1e2c36;
+  color: white;
+  margin: 5px 4px;
+  font-family: 'kia' !important;
+  padding: 3px 25px;  
+  height: 30px;
+}
+.tab-text{
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  line-height: 1.367;
+  font-weight: 600;
+}
+.tab-btn{
+  padding:1px 35px;
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 25px;
+}
+
+/* ==== slider ==== */
+  .slider{
+    background-color: white;  
+  }
+  .slider-title{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+     margin-top: 20px;
+    padding-bottom: 30px;
+  }
+  .slider-img>{
+    height: 150px;
+    width: 100%;
+  }
+  .carbox{
+    padding: 20px;
+  }
+  .carname{
+    color: black;
+    padding-top: 10px;
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: 600;
+  }
+  .know-more{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+
+
+  /* ===  Responsive Fixing Minor === */
+
+/* ==== for 992px === */
+  @media  screen and (max-width:992px) {
+    .marktext{
+      font-size: 7rem;
+    }
+    header{
+      margin: 5px 10px;
+    }
+    .greet-heading{
+      font-size: 100px;
+    }
+    .greet-text{
+        font-size: 25px;
+    }
+    .inspire{
+      font-size: 2em;
+    }
+  }
+  /* ==== for 767px === */
+  @media  screen and (max-width:767px) {
+    .navbar-brand img {
+      width: 100px;
+    }
+    .navbar-brand {
+      margin-right: 0;
+      padding: 0 1em;
+    }
+    .marktext{
+      font-size: 5rem;
+    }
+    .greet-heading{
+      font-size: 80px;
+    }
+    .greet-text{
+        font-size: 20px;
+    }
+    .inspire{
+      font-size: 1.7em;
+    }
+  }
+/* ==== for 440px === */
+  @media  screen and (max-width:440px) {
+    .marktext{
+      font-size: 4rem;
+    }
+    .greet-text{
+      font-size: 18px;
+  }
+  .inspire{
+    font-size: 1.4em;
+  }
+  .tab-text{
+    font-size: 1rem;
+  }
+  }
+
+
